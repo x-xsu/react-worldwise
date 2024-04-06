@@ -1,4 +1,5 @@
 import Nav from "../../components/Nav/Nav";
+
 import styles from "./Product.module.css";
 
 export default function Product() {

@@ -1,7 +1,7 @@
+import Nav from "../../components/Nav/Nav";
+
 // Uses the same styles as Product
 import styles from "../Product/Product.module.css";
-
-import Nav from "../../components/Nav/Nav";
 
 export default function Pricing() {
   return (
