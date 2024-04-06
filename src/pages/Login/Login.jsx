@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Nav from "../components/Nav";
+import Nav from "../../components/Nav/Nav";
 
 import styles from "./Login.module.css";
 

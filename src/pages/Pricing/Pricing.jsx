@@ -1,8 +1,9 @@
 // Uses the same styles as Product
-import Nav from "../components/Nav";
-import styles from "./Product.module.css";
+import styles from "../Product/Product.module.css";
 
-export default function Product() {
+import Nav from "../../components/Nav/Nav";
+
+export default function Pricing() {
   return (
     <main className={styles.product}>
       <Nav />
