@@ -23,11 +23,15 @@ function City() {
     emoji: "🇵🇹",
     date: "2027-10-31T15:59:59.138Z",
     notes: "My favorite city so far!",
-  }; 
+  };
 
   const { cityName, emoji, date, notes } = currentCity;
 
-  return <h1>City</h1>;
+  return (
+    <h1>
+      City Pos: {lat}, {lng}
+    </h1>
+  );
 
   // return (
   //   <div className={styles.city}>

@@ -16,7 +16,7 @@ function CountryList({ cities, isLoading }) {
     if (!arr.map((el) => el.country).includes(city.country)) {
       return [
         ...arr,
-        { id: city.id, country: city.country, emoji: city.emoji },
+        { country: city.country, emoji: city.emoji },
       ];
     } else return arr;
   }, []);
@@ -24,7 +24,7 @@ function CountryList({ cities, isLoading }) {
   return (
     <ul className={styles.countryList}>
       {countries.map((country) => (
-        <CountryItem country={country} key={country.id} />
+        <CountryItem country={country} key={country.country} />
       ))}
     </ul>
   );
