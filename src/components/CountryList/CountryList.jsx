@@ -1,4 +1,4 @@
-import { useCities } from "../contexts/CitiesContext";
+import { useCities } from "../../contexts/CitiesContext";
 
 import CountryItem from "../CountryItem/CountryItem";
 import Spinner from "../Spinner/Spinner";
