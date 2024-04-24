@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useSearchParams, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   MapContainer,
   Marker,
@@ -11,25 +11,23 @@ import {
 
 import { useCities } from "../../contexts/CitiesContext";
 import { useGeolocation } from "../../hooks/useGeolocation";
+import { useUrlPosition } from "../../hooks/useUrlPosition";
 
 import Button from "../Button/Button";
 
 import styles from "./Map.module.css";
 
 function Map() {
-  const navigate = useNavigate();
   const { cities } = useCities();
+  const [mapPosition, setMapPosition] = useState([40, 0]);
+
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
 
-  const [mapPosition, setMapPosition] = useState([40, 0]);
-
-  const [searchParams] = useSearchParams();
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
+  const [mapLat, mapLng] = useUrlPosition();
 
   useEffect(
     function () {
@@ -40,7 +38,6 @@ function Map() {
 
   useEffect(
     function () {
-      console.log(geolocationPosition);
       if (geolocationPosition)
         setMapPosition([geolocationPosition.lat, geolocationPosition.lng]);
     },
@@ -48,7 +45,7 @@ function Map() {
   );
 
   return (
-    <div className={styles.mapContainer} onClick={() => navigate("form")}>
+    <div className={styles.mapContainer}>
       {!geolocationPosition && (
         <Button type="position" onClick={getPosition}>
           {isLoadingPosition ? "Loading..." : "Use your position"}
@@ -70,7 +67,10 @@ function Map() {
             position={[city.position.lat, city.position.lng]}
           >
             <Popup>
-              <span>{city.emoji}</span>
+              <img
+                src={`https://flagcdn.com/20x15/${city.emoji?.toLowerCase()}.png`}
+                alt={city.emoji}
+              />
               <span>{city.cityName}</span>
             </Popup>
           </Marker>
