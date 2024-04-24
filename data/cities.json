@@ -1,42 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "PT",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "id": "b4e7",
-      "cityName": "Perpignan",
-      "country": "France",
-      "emoji": "FR",
-      "date": "2024-04-24T12:22:22.694Z",
-      "notes": "",
-      "position": {
-        "lat": "42.68243208647459",
-        "lng": "2.8724980801902826"
-      }
-    },
-    {
-      "id": "3e6c",
-      "cityName": "Lleida",
-      "country": "Spain",
-      "emoji": "ES",
-      "date": "2024-04-24T12:22:38.994Z",
-      "notes": "asdasd",
-      "position": {
-        "lat": "41.60927928298767",
-        "lng": "0.6316748217142855"
-      }
-    },
-    {
       "id": "62f0",
       "cityName": "Fischbach",
       "country": "Luxembourg",
@@ -49,15 +13,39 @@
       }
     },
     {
-      "id": "1544",
-      "cityName": "Herrera del Duque",
-      "country": "Spain",
-      "emoji": "ES",
-      "date": "2024-04-24T13:32:43.648Z",
-      "notes": "qqqq",
+      "id": "e835",
+      "cityName": "Vire Normandie",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2024-04-24T16:26:26.374Z",
+      "notes": "",
       "position": {
-        "lat": "39.16840048553657",
-        "lng": "-5.050735648347668"
+        "lat": "48.864674096639774",
+        "lng": "-0.8934649653199014"
+      }
+    },
+    {
+      "id": "0aeb",
+      "cityName": "Pribelce",
+      "country": "Slovakia",
+      "emoji": "SK",
+      "date": "2024-04-24T16:26:32.444Z",
+      "notes": "",
+      "position": {
+        "lat": "48.166109737601786",
+        "lng": "19.29792593247829"
+      }
+    },
+    {
+      "id": "93f8",
+      "cityName": "Ottery St Mary",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-04-24T16:35:53.010Z",
+      "notes": "",
+      "position": {
+        "lat": "50.76371644283406",
+        "lng": "-3.2749757368209673"
       }
     }
   ]
