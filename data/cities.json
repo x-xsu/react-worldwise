@@ -13,78 +13,6 @@
       "id": "73930385"
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "ES",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "DE",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "be7b",
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "ES",
-      "date": "2024-04-24T12:08:45.919Z",
-      "notes": "",
-      "position": {
-        "lat": "40.01591464144338",
-        "lng": "-0.04171502006684369"
-      }
-    },
-    {
-      "id": "d5ea",
-      "cityName": "Paris",
-      "country": "France",
-      "emoji": "FR",
-      "date": "2024-04-24T12:13:06.677Z",
-      "notes": "",
-      "position": {
-        "lat": "48.84302827218989",
-        "lng": "2.3534571630453676"
-      }
-    },
-    {
-      "id": "7639",
-      "cityName": "Amsterdam",
-      "country": "Netherlands (Kingdom of the)",
-      "emoji": "NL",
-      "date": "2024-04-24T12:15:12.617Z",
-      "notes": "",
-      "position": {
-        "lat": "52.372219198441265",
-        "lng": "4.89195832361693"
-      }
-    },
-    {
-      "id": "9cda",
-      "cityName": "Nordre Land",
-      "country": "Norway",
-      "emoji": "NO",
-      "date": "2024-04-24T12:19:12.946Z",
-      "notes": "eeeee",
-      "position": {
-        "lat": "60.834036654362954",
-        "lng": "10.07612196551783"
-      }
-    },
-    {
       "id": "b4e7",
       "cityName": "Perpignan",
       "country": "France",
@@ -121,27 +49,15 @@
       }
     },
     {
-      "id": "82d6",
-      "cityName": "Mumbwa",
-      "country": "Zambia",
-      "emoji": "ZM",
-      "date": "2024-04-24T12:23:29.026Z",
-      "notes": "sdfsdf",
+      "id": "1544",
+      "cityName": "Herrera del Duque",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2024-04-24T13:32:43.648Z",
+      "notes": "qqqq",
       "position": {
-        "lat": "-15.199123571386345",
-        "lng": "26.881805940476845"
-      }
-    },
-    {
-      "id": "501c",
-      "cityName": "Ati",
-      "country": "Chad",
-      "emoji": "TD",
-      "date": "2024-04-24T12:27:00.948Z",
-      "notes": "",
-      "position": {
-        "lat": "15.284043215284468",
-        "lng": "18.728626694924426"
+        "lat": "39.16840048553657",
+        "lng": "-5.050735648347668"
       }
     }
   ]
