@@ -47,6 +47,30 @@
         "lat": "50.76371644283406",
         "lng": "-3.2749757368209673"
       }
+    },
+    {
+      "id": "7c66",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2024-04-25T06:38:43.415Z",
+      "notes": "",
+      "position": {
+        "lat": "40.00922172262279",
+        "lng": "-0.0017446778654384158"
+      }
+    },
+    {
+      "id": "4f06",
+      "cityName": "Ulyanovsk",
+      "country": "Russian Federation (the)",
+      "emoji": "RU",
+      "date": "2024-04-25T07:58:31.059Z",
+      "notes": "",
+      "position": {
+        "lat": "54.30982301291042",
+        "lng": "48.38770731973939"
+      }
     }
   ]
 }
